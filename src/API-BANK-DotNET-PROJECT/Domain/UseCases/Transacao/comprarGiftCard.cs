@@ -1,6 +1,8 @@
-﻿namespace UseCases.transacoesController
+﻿using SharedKernel.Base;
+
+namespace UseCases.transacoesController
 {
-    public partial class comprarGiftCard
+    public partial class comprarGiftCard: BaseUseCase
     {
     }
 }
