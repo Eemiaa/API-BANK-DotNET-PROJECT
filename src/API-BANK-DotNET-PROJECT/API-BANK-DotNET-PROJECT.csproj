@@ -10,16 +10,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.2" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Domain\SharedKernel\Exceptions\" />
     <Folder Include="Domain\SharedKernel\InternalPorts\" />
-    <Folder Include="Domain\SharedKernel\Mappers\" />
-    <Folder Include="Domain\SharedKernel\Models\" />
     <Folder Include="Domain\SharedKernel\Repositories\" />
-    <Folder Include="Domain\SharedKernel\Transactions\" />
   </ItemGroup>
 
 </Project>
